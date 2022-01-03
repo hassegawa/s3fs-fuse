@@ -5,5 +5,5 @@
   * https://blog.meain.io/2020/mounting-s3-bucket-kube/
 
 
-## ferramente s3fs
+## ferramenta s3fs
   * https://github.com/s3fs-fuse/s3fs-fuse

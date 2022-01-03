@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.15
 
 ENV MNT_POINT /var/s3fs
 ARG S3FS_VERSION=v1.90
