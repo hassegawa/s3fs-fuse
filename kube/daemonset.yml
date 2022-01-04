@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   labels:
@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: s3fuse
-        image: meain/s3-mounter
+        image: hassegawa/s3fs-fuse
         securityContext:
           privileged: true
         envFrom:
